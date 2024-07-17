@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteo de Stock de Ladrillos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conteo de Stock de Ladrillos</h1>
+        <div class="stock-item">
+            <h2>Ladrillos de 6 tubos</h2>
+            <div class="stock-controls">
+                <button class="decrement" onclick="decrementar('stock6')">-</button>
+                <span id="stock6" class="stock-count">10</span>
+                <button class="increment" onclick="incrementar('stock6')">+</button>
+            </div>
+        </div>
+        <div class="stock-item">
+            <h2>Ladrillos de 9 tubos</h2>
+            <div class="stock-controls">
+                <button class="decrement" onclick="decrementar('stock9')">-</button>
+                <span id="stock9" class="stock-count">15</span>
+                <button class="increment" onclick="incrementar('stock9')">+</button>
+            </div>
+        </div>
+        <div class="stock-item">
+            <h2>Ladrillos de 11 tubos</h2>
+            <div class="stock-controls">
+                <button class="decrement" onclick="decrementar('stock11')">-</button>
+                <span id="stock11" class="stock-count">20</span>
+                <button class="increment" onclick="incrementar('stock11')">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
